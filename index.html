@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <title>Tongints Hint</title>
+  </head>
+  <body>
+    <div class="title">Tongints Hint</div>
+    <main>
+        <div class="cards-layout">
+            <div class="cards black" id="flower-cards">
+                <div class="card" onclick="toggleCard(this)"><p>A</p><iconify-icon icon="streamline:flower-solid"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>2</p><iconify-icon icon="streamline:flower-solid"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>3</p><iconify-icon icon="streamline:flower-solid"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>4</p><iconify-icon icon="streamline:flower-solid"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>5</p><iconify-icon icon="streamline:flower-solid"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>6</p><iconify-icon icon="streamline:flower-solid"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>7</p><iconify-icon icon="streamline:flower-solid"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>8</p><iconify-icon icon="streamline:flower-solid"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>9</p><iconify-icon icon="streamline:flower-solid"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>10</p><iconify-icon icon="streamline:flower-solid"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>J</p><iconify-icon icon="streamline:flower-solid"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>Q</p><iconify-icon icon="streamline:flower-solid"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>K</p><iconify-icon icon="streamline:flower-solid"></iconify-icon></div>
+            </div>
+            <div class="btns" id="flower-btns">
+                <button onclick="toggleOff('flower-cards')">Off</button>
+                <button onclick="toggleOn('flower-cards')">On</button>
+            </div>
+        </div>
+
+
+        <div class="cards-layout">
+            <div class="cards black" id="spade-cards">
+                <div class="card" onclick="toggleCard(this)"><p>A</p><iconify-icon icon="emojione-v1:spade-suit"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>2</p><iconify-icon icon="emojione-v1:spade-suit"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>3</p><iconify-icon icon="emojione-v1:spade-suit"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>4</p><iconify-icon icon="emojione-v1:spade-suit"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>5</p><iconify-icon icon="emojione-v1:spade-suit"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>6</p><iconify-icon icon="emojione-v1:spade-suit"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>7</p><iconify-icon icon="emojione-v1:spade-suit"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>8</p><iconify-icon icon="emojione-v1:spade-suit"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>9</p><iconify-icon icon="emojione-v1:spade-suit"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>10</p><iconify-icon icon="emojione-v1:spade-suit"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>J</p><iconify-icon icon="emojione-v1:spade-suit"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>Q</p><iconify-icon icon="emojione-v1:spade-suit"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>K</p><iconify-icon icon="emojione-v1:spade-suit"></iconify-icon></div>
+            </div>
+            <div class="btns" id="spade-btns">
+                <button onclick="toggleOff('spade-cards')">Off</button>
+                <button onclick="toggleOn('spade-cards')">On</button>
+            </div>
+        </div>
+
+
+        <div class="cards-layout">
+            <div class="cards red" id="heart-cards">
+                <div class="card" onclick="toggleCard(this)"><p>A</p><iconify-icon icon="tabler:heart-filled"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>2</p><iconify-icon icon="tabler:heart-filled"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>3</p><iconify-icon icon="tabler:heart-filled"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>4</p><iconify-icon icon="tabler:heart-filled"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>5</p><iconify-icon icon="tabler:heart-filled"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>6</p><iconify-icon icon="tabler:heart-filled"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>7</p><iconify-icon icon="tabler:heart-filled"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>8</p><iconify-icon icon="tabler:heart-filled"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>9</p><iconify-icon icon="tabler:heart-filled"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>10</p><iconify-icon icon="tabler:heart-filled"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>J</p><iconify-icon icon="tabler:heart-filled"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>Q</p><iconify-icon icon="tabler:heart-filled"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>K</p><iconify-icon icon="tabler:heart-filled"></iconify-icon></div>
+            </div>
+            <div class="btns" id="heart-btns">
+                <button onclick="toggleOff('heart-cards')">Off</button>
+                <button onclick="toggleOn('heart-cards')">On</button>
+            </div>
+        </div>
+
+
+        <div class="cards-layout">
+            <div class="cards red" id="diamond-cards">
+                <div class="card" onclick="toggleCard(this)"><p>A</p><iconify-icon icon="mingcute:diamond-fill"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>2</p><iconify-icon icon="mingcute:diamond-fill"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>3</p><iconify-icon icon="mingcute:diamond-fill"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>4</p><iconify-icon icon="mingcute:diamond-fill"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>5</p><iconify-icon icon="mingcute:diamond-fill"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>6</p><iconify-icon icon="mingcute:diamond-fill"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>7</p><iconify-icon icon="mingcute:diamond-fill"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>8</p><iconify-icon icon="mingcute:diamond-fill"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>9</p><iconify-icon icon="mingcute:diamond-fill"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>10</p><iconify-icon icon="mingcute:diamond-fill"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>J</p><iconify-icon icon="mingcute:diamond-fill"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>Q</p><iconify-icon icon="mingcute:diamond-fill"></iconify-icon></div>
+                <div class="card" onclick="toggleCard(this)"><p>K</p><iconify-icon icon="mingcute:diamond-fill"></iconify-icon></div>
+            </div>
+            <div class="btns" id="diamond-btns">
+                <button onclick="toggleOff('diamond-cards')">Off</button>
+                <button onclick="toggleOn('diamond-cards')">On</button>
+            </div>
+        </div>
+        
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

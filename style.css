@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+p {
+  font-size: 45px;
+}
+
+.red iconify-icon,
+.red .card {
+  color: red;
+}
+.black iconify-icon,
+.black .card {
+  color: black;
+}
+
+iconify-icon {
+  font-size: 20px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  background-color: wheat;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 44px);
+  background-color: rgb(0, 70, 70);
+}
+
+.cards-layout {
+  flex: 1;
+  display: flex;
+  margin: 5px 20px;
+  padding: 5px 10px;
+}
+
+.cards {
+  display: flex;
+  flex: 1;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.card {
+  box-shadow: 2px 2px 5px #000000;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.card.off {
+  background-color: rgb(0, 55, 55);
+  color: black;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 100px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  flex: 1;
+}
