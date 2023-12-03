@@ -32,7 +32,7 @@ iconify-icon {
 main {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 44px);
+  height: 100vh;
   background-color: rgb(0, 70, 70);
 }
 
@@ -58,7 +58,7 @@ main {
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 8px;
-  margin: 10px;
+  margin: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,7 +79,7 @@ main {
 }
 
 button {
-  width: 100px;
+  width: 50px;
   margin: 5px;
   padding: 5px;
   border-radius: 5px;
